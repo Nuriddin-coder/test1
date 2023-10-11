@@ -1,0 +1,73 @@
+.sign {
+  padding-bottom: 3rem;
+  /* height: 338px; */
+  background-color: rgba(232, 236, 255, 0.30);
+  
+}
+
+.sign_des {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+  padding-top: 3rem;
+}
+
+.sign_title {
+  color: #058aff;
+  text-align: right;
+  font-size: 31.25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.sign_text {
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.sign_input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  margin-top: 30px;
+  width: 487px;
+  position: relative;
+}
+
+.sign_inout_item {
+  padding: 25px 261px 25px 82px;
+  border-radius: 10px;
+  border: 1px solid #058aff;
+}
+
+.sign_input::before {
+    content: "";
+    width: 34px;
+    height: 28px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url('../img/MAIL\ LOGO.svg');
+    position: absolute;
+    left: 17px;
+    
+}
+
+.sign_btn {
+  color: #fff;
+  padding: 15px 27px;
+  border-style: none;
+  border-radius: 10px;
+  background: #0082f4;
+  cursor: pointer;
+  position: absolute;
+  left: 24rem;
+}

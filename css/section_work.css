@@ -1,0 +1,82 @@
+.work {
+  margin-top: 5rem;
+}
+
+.work_title {
+  color: #000;
+  font-size: 48.44px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  text-align: center;
+}
+
+.work_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+  width: 324px;
+  margin-top: 250px;
+  position: relative;
+}
+
+.work_card::before {
+    content: "";
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-image: url('../img/1st\ feature.svg');
+    position: absolute;
+    /* top: 60px; */
+    bottom: 12rem;
+}
+    
+
+.work_card_title {
+  color: #000;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.work_cart_text {
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+
+.work_cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_second::before {
+    content: "";
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-image: url('../img/Group\ 154.png');
+    position: absolute;
+    /* top: 60px; */
+    bottom: 12rem;
+}
+
+.card_third::before {
+    content: "";
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-image: url('../img/final\ icon.png');
+    position: absolute;
+    /* top: 60px; */
+    bottom: 12rem;
+}
+
